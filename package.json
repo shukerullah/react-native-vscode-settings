@@ -1,6 +1,6 @@
 {
   "name": "react-native-vscode-settings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Visual Studio Code settings for React Native",
   "scripts": {
     "postinstall":
