@@ -1,25 +1,31 @@
+<center><img src="https://pbs.twimg.com/profile_images/922911523328081920/jEKFRPKV_400x400.jpg" /></center>
+
 # React Native VSCode Settings
 
 [Visual Studio Code](https://code.visualstudio.com/) is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.
 
+This module will install `visual studio code` essential extensions and settings for `react-native`.
+
 ## Install
 
 ```shell
-npm install --save react-geocode
+npm install --save-dev react-geocode
 ```
 
 or
 
 ```shell
-yarn add react-geocode
+yarn add react-geocode --dev
 ```
 
 On `install` it will automatically install all plugins configured in library.
 
 > **Note:**
 >
+> * Copy your vscode settings defined in your `.vscode/settings.json` file before installing this package.
 > * If you are using MAC then please make your that you have install `code` command in PATH. Please refer [Microsoft Blog](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) for more details.
 > * All plugins are defined in package.json `postinstall` section.
+> * These prepacked plugins will definitely help developers of [React](https://github.com/facebook/react) & [ReactNative](https://github.com/facebook/react-native) community
 
 ## Essential Extensions
 
