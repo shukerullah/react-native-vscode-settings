@@ -1,0 +1,33 @@
+{
+  "name": "react-native-vscode-settings",
+  "version": "0.0.1",
+  "description": "Visual Studio Code settings for React Native",
+  "scripts": {
+    "postinstall":
+      "code --install-extension vsmobile.vscode-react-native && code --install-extension formulahendry.auto-close-tag && code --install-extension formulahendry.auto-rename-tag && code --install-extension formulahendry.auto-complete-tag && code --install-extension dzannotti.vscode-babel-coloring && code --install-extension streetsidesoftware.code-spell-checker && code --install-extension naumovs.color-highlight && code --install-extension joelday.docthis && code --install-extension dbaeumer.vscode-eslint && code --install-extension flowtype.flow-for-vscode && code --install-extension waderyan.gitblame && code --install-extension eamodio.gitlens && code --install-extension SirTori.indenticator && code --install-extension Tyriar.lorem-ipsum && code --install-extension DavidAnson.vscode-markdownlint && code --install-extension IBM.output-colorizer && code --install-extension christian-kohler.path-intellisense && code --install-extension nwallace.peep && code --install-extension esbenp.prettier-vscode && code --install-extension 2gua.rainbow-brackets && code --install-extension EQuimper.react-native-react-redux && code --install-extension cssho.vscode-svgviewer && code --install-extension wayou.vscode-todo-highlight && code --install-extension robertohuertasm.vscode-icons && node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/shukerullah/react-native-vscode-extensions.git"
+  },
+  "keywords": [
+    "visual",
+    "studio",
+    "code",
+    "vscode",
+    "settings",
+    "extensions",
+    "react",
+    "react-native"
+  ],
+  "author":
+    "Pir Shukarulalh Shah <shuker_rashdi@hotmail.com> (http://www.shukarullah.com)",
+  "license": "MIT",
+  "bugs": {
+    "url":
+      "https://github.com/shukerullah/react-native-vscode-extensions/issues"
+  },
+  "homepage":
+    "https://github.com/shukerullah/react-native-vscode-extensions#readme"
+}
