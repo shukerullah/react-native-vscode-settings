@@ -9,13 +9,13 @@ This module will install `visual studio code` essential extensions and settings 
 ## Install
 
 ```shell
-npm install --save-dev react-geocode
+npm install --save-dev react-native-vscode-settings
 ```
 
 or
 
 ```shell
-yarn add react-geocode --dev
+yarn add react-native-vscode-settings --dev
 ```
 
 On `install` it will automatically install all plugins configured in library.
