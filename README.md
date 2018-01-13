@@ -90,7 +90,7 @@ Paste following code with your design settings.
     "*.json": false,
     "LICENSE": false,
     "android/": false,
-    "__test__": false,
+    "__tests__": false,
     "node_modules/": false
   }
 }

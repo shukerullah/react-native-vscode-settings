@@ -1,6 +1,6 @@
 {
   "name": "react-native-vscode-settings",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Visual Studio Code settings for React Native",
   "scripts": {
     "postinstall":
@@ -8,8 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/shukerullah/react-native-vscode-extensions.git"
+    "url": "git+https://github.com/shukerullah/react-native-vscode-settings.git"
   },
   "keywords": [
     "visual",
@@ -25,9 +24,8 @@
     "Pir Shukarulalh Shah <shuker_rashdi@hotmail.com> (http://www.shukarullah.com)",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/shukerullah/react-native-vscode-extensions/issues"
+    "url": "https://github.com/shukerullah/react-native-vscode-settings/issues"
   },
   "homepage":
-    "https://github.com/shukerullah/react-native-vscode-extensions#readme"
+    "https://github.com/shukerullah/react-native-vscode-settings#readme"
 }
