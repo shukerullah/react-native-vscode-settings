@@ -1,5 +1,3 @@
-<center><img src="https://pbs.twimg.com/profile_images/922911523328081920/jEKFRPKV_400x400.jpg" /></center>
-
 # React Native VSCode Settings
 
 [Visual Studio Code](https://code.visualstudio.com/) is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.
@@ -36,11 +34,12 @@ On `install` it will automatically install all plugins configured in library.
 * [Babel ES6/ES7 _by dzannotti_](https://marketplace.visualstudio.com/items?itemName=dzannotti.vscode-babel-coloring)
 * [Code Spellcheker _by Street Side Software_](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 * [Color Highlight _by Sergii Naumov_](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-* [Document This _by Jeol Day_](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
+* [Document This _by oouo-diogo-perdigao_](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis)
 * [ESLint _by Drik Baeumer_](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [Flow Language Support _by flowtype_](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
 * [Git Blame _by Wade Anderson_](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
-* [Git Lens — git blame annotations, code lens, and more _by Eric Amodio_](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [GitLens — Git supercharged _by Eric Amodio_](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [Import Cost _by Wix_](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 * [Indenticator _by SirTori_](https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator)
 * [Lorem ipsum _by Daniel Imms_](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum)
 * [markdownlist _by David Anson_](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
