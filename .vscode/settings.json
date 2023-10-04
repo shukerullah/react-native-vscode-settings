@@ -5,14 +5,11 @@
   "workbench.iconTheme": "vscode-icons",
   // Format a file on save.
   "editor.formatOnSave": true,
-  // Support using flow through your node_modules folder. (For Flow)
-  "flow.useNPMPackagedFlow": true,
-  // Enable/disable JavaScript validation. (For Flow)
-  "javascript.validate.enable": false,
-  // Enable/disable default JavaScript formatter. (For Prettier)
-  "javascript.format.enable": false,
-  // vscode-icons extension will restart automatically on project detection. (For vscode-icons)
-  "vsicons.projectDetection.autoReload": true,
+  // Set Prettier default as formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   // Controls how the editor should render whitespace characters.
   "editor.renderWhitespace": "boundary",
   // Quickly toggle between hiding and showing folders and files. (For Peep)
@@ -21,7 +18,6 @@
     ".*": false,
     "ios/": false,
     "*.lo*": false,
-    "*.json": false,
     "LICENSE": false,
     "android/": false,
     "__tests__": false,

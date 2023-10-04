@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    // React Native Tools
+    "msjsdiag.vscode-react-native",
+    // ESLint
+    "dbaeumer.vscode-eslint",
+    // Prettier - Code formatter
+    "esbenp.prettier-vscode"
+  ]
+}
