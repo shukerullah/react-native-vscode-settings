@@ -4,16 +4,10 @@
 
 This module will install `visual studio code` essential extensions and settings for `react-native`.
 
-## Install
+## Run react-native-vscode-settings
 
 ```shell
-npm install react-native-vscode-settings
-```
-
-or
-
-```shell
-yarn add react-native-vscode-settings
+npx react-native-vscode-settings
 ```
 
 On `install` it will automatically install all plugins configured in library.
@@ -59,7 +53,7 @@ To get to the user and workspace settings:
 
 Paste following code with your design settings.
 
-```js
+```json
 {
   // The number of spaces in a tab.
   "editor.tabSize": 2,
@@ -67,14 +61,11 @@ Paste following code with your design settings.
   "workbench.iconTheme": "vscode-icons",
   // Format a file on save.
   "editor.formatOnSave": true,
-  // Support using flow through your node_modules folder. (For Flow)
-  "flow.useNPMPackagedFlow": true,
-  // Enable/disable JavaScript validation. (For Flow)
-  "javascript.validate.enable": false,
-  // Enable/disable default JavaScript formatter. (For Prettier)
-  "javascript.format.enable": false,
-  // vscode-icons extension will restart automatically on project detection. (For vscode-icons)
-  "vsicons.projectDetection.autoReload": true,
+  // Set Prettier default as formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   // Controls how the editor should render whitespace characters.
   "editor.renderWhitespace": "boundary",
   // Quickly toggle between hiding and showing folders and files. (For Peep)
@@ -83,7 +74,6 @@ Paste following code with your design settings.
     ".*": false,
     "ios/": false,
     "*.lo*": false,
-    "*.json": false,
     "LICENSE": false,
     "android/": false,
     "__tests__": false,
